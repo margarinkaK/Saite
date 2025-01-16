@@ -3,16 +3,19 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Вторая страница</title>
+    <title>Игровое поле</title>
     <link rel="stylesheet" href="./styles/style.css">
   
-    <meta property="og:title" content="Заголовок страницы в OG">
-    <meta property="og:description" content="Описание страницы в OG">
+    <meta property="og:title" content="Игровое поле">
+    <meta property="og:description" content="Игровое поле">
     <meta property="og:image" content="https://example.com/image.jpg">
     <meta property="og:url" content="https://example.com/">
   </head>
   <body>
-    <table> <!--style="background-color:LightCyan"-->
+    <label for="name">Введите номер (0-36):</label>
+    <input type="number" id="name" name="name" min="0" max="36" />
+    <button onclick="multi()"  class="btn btn-primary" >Показать</button>
+    <table>
       <tr>
         <td id = "0" rowspan="3"></td>
         <td id = "3"></td>

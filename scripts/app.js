@@ -26,5 +26,9 @@ function f(num) {
 	else
 		return 'black'
 }
-print_string(12)
+function multi(){
+	print_string(document.getElementById('name').value)
+}
+print_string()
+
 
