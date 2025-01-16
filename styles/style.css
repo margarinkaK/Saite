@@ -1,0 +1,14 @@
+table {
+	table-layout: fixed;
+	width: 100%;
+	border: 1px solid darkcyan;
+	background-color: cyan;
+}
+td {
+  border: 1px solid darkcyan;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: x-large;
+  text-align: center;
+}
