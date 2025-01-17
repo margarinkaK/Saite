@@ -9,6 +9,6 @@ td {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  font-size: x-large;
+  font-size: large;
   text-align: center;
 }
